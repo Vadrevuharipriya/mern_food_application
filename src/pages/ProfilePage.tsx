@@ -1,9 +1,9 @@
-// import { useEffect, useState } from 'react';
-// import { X, User, MapPin, Phone, Mail, Package, IndianRupee, RotateCcw, ChevronDown, Calendar, Truck } from 'lucide-react';
-// import { useAuth } from '../contexts/AuthContext';
-// import { useCart } from '../contexts/CartContext';
-// import { supabase } from '../lib/supabase';
-// import { Order } from '../types';
+import { useEffect, useState } from 'react';
+import { X, User, MapPin, Phone, Mail, Package, IndianRupee, RotateCcw, ChevronDown, Calendar, Truck } from 'lucide-react';
+import { useAuth } from '../contexts/AuthContext';
+import { useCart } from '../contexts/CartContext';
+import { supabase } from '../lib/supabase';
+import { Order } from '../types';
 
 // interface ProfilePageProps {
 //   onClose: () => void;
